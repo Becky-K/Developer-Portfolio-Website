@@ -103,12 +103,40 @@ textarea {
     width: 85%;
    }
 
+   p, li {
+    font-size: 1.25rem;
+    line-height: 1.5;
+   }
+
    a {
     text-decoration: none;
    }
 
    h1, h2, h3, h4, h5, h6 {
     margin: 0;
+   }
+
+   h3, h4, h5, h6 {
+    font-family: 'Lexend Tera', sans-serif;
+    line-height: 1.5;
+   }
+
+   h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+   }
+
+   h4 {
+    font-size: 1.25rem;
+    margin: 0 0 40px 0;
+   }
+
+   figure {
+    margin: 20px 0 40px 0;
+   }
+
+   span {
+    font-weight: 700;
    }
 
    /* Header and Nav */
@@ -134,14 +162,14 @@ textarea {
 
    h1 {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     line-height: 1.5;
    }
 
    h2 {
     margin-top: 30px;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.5;
    }
 
@@ -167,10 +195,6 @@ textarea {
     text-transform: uppercase;
    }
 
-   li {
-    line-height: 1.5;;
-   }
-
    nav .button {
     background-color: #e9b14c;
     padding: 10px 10px;
@@ -189,6 +213,79 @@ textarea {
    nav a {
     color: #eeefda;
    }
+
+
+   /* Main Styles */
+
+   #work, #skills, #about, footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+   }
+
+
+   #work, #skills {
+    width: 100%;
+   }
+
+   #work {
+    padding-top: 60px;
+   }
+
+   #work h3 {
+    width: 100%;
+   }
+
+   .portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+   }
+
+   .home-portfolio-piece {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .home-portfolio-piece figure {
+    width: 100%;
+    filter: drop-shadow(1px 2px 6px rgba(63, 63, 63, 0.247));
+   }
+
+   #work p, #about p {
+    width: 100%;
+    text-align: left;
+   }
+
+   .project-description {
+    margin: 0 0 30px 0;
+   }
+
+   .project-link {
+    background-color: #152a3e;
+    padding: 0.75rem 3.75rem;
+    border-radius: 30px;
+    color: #eeefda;
+    margin: 40px 0 60px 0;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700; 
+    transition-duration: 0.4s;
+   }
+
+   .project-link:hover{
+    background-color: #B4C7D9;
+    color: #152a3e;
+   }
+
+
+
+
 
 
 /* ==========================================================================
