@@ -86,6 +86,110 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* Mobile Styles */
+
+   html {
+    font-size: 16px;
+   }
+
+   body {
+    font-size: 1em;
+    font-family: 'Lekton', sans-serif;
+    color: #152a3e;
+    background-color: #eeefda;
+   }
+
+   .content-wrapper {
+    width: 85%;
+   }
+
+   a {
+    text-decoration: none;
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+   }
+
+   /* Header and Nav */
+
+   header {
+    background-color: #152a3e;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    color: #eeefda;
+   }
+
+   div .home-title {
+    display: block;
+   }
+
+   header h1, h2 {
+    width: 100%;
+   }
+
+   h1 {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+   }
+
+   h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5;
+   }
+
+   nav {
+    margin-bottom: 60px;
+   }
+
+   nav ul {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+
+   header nav ul li {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+   }
+
+   li {
+    line-height: 1.5;;
+   }
+
+   nav .button {
+    background-color: #e9b14c;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #152a3e;
+   }
+
+   nav .button {
+    transition-duration: 0.4s;
+   }
+
+   nav .button:hover {
+    background-color: #f8d697;
+   }
+
+   nav a {
+    color: #eeefda;
+   }
+
 
 /* ==========================================================================
    Helper classes
