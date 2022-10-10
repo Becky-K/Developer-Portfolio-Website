@@ -135,6 +135,10 @@ textarea {
     margin: 20px 0 40px 0;
    }
 
+   img {
+    width: 100%;
+   }
+
    span {
     font-weight: 700;
    }
@@ -260,6 +264,10 @@ textarea {
    #work p, #about p {
     width: 100%;
     text-align: left;
+   }
+
+   #work figure {
+    margin: 20px 20px 40px 0;
    }
 
    .project-description {
