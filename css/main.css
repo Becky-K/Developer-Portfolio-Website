@@ -223,7 +223,7 @@ textarea {
    }
 
 
-   /* Main Styles */
+   /* Portfolio Section */
 
    #work, #skills, #about, footer {
     display: flex;
@@ -395,6 +395,191 @@ textarea {
     color:#eeefda;
    }
 
+   @media only screen and (min-width: 768px) {
+    /******TABLET STYLES******/
+
+    /* Header and Nav */
+
+    .content-wrapper {
+      max-width: 640px;
+    }
+
+    header {
+      padding-top: 60px;
+      padding-bottom: 80px;
+    }
+
+    header .content-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-transform: uppercase;
+    }
+
+    nav {
+      margin: 0 0 80px 0;
+    }
+
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+    }
+
+    header nav ul li {
+      font-size: 1.15rem;
+    }
+
+    .home-title {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+    }
+
+    h2 {
+      margin-top: 80px;
+      font-size: 1.75rem;
+    }
+
+    /* Main Section: Portfolio and Skills */
+
+    #work {
+      padding-top: 80px;
+    }    
+
+    .portfolio-header {
+      margin: 0 0 60px 0;
+    }
+
+    h3 {
+      font-size: 2.25rem;
+    }
+
+    .portfolio-wrapper {
+      justify-content: space-around;
+    }
+
+    .home-portfolio-piece {
+      width: 45%;
+      align-items: center;
+    }
+
+    h4 {
+      font-size: 1.15rem;
+    }
+
+    .project-description {
+      width: 95%;
+      margin: 0 0 30px 0;
+    }
+
+    .project-link {
+      margin: 40px 0 60px 0;
+    }
+
+    /* Skills */
+
+    #skills {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .skills-header {
+      margin-bottom: 40px;
+    }
+
+    #skills h4 {
+      margin: 40px 0 20px 0; 
+    }
+
+    .language-wrapper, .tool-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-flow: row wrap;
+      text-transform: uppercase ;
+    }
+
+    .language-wrapper p, .tool-wrapper p {
+      width: 45%;
+    }
+
+    /* About Section */
+
+    #about {
+      padding: 80px 0;
+    }
+
+    .about-content-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
+
+    #about figure {
+      width: 60%;
+    }
+
+    .about-info h3 {
+      margin: 80px 0;
+    }
+
+    .about-info h4 {
+      text-align: left;
+      margin: 0 0 60px 0;
+    }
+
+    .about-text {
+      margin: 0 0 30px 0;
+    }
+
+    /* Footer */
+
+    footer {
+      padding-bottom: 80px;
+      padding: 140px 0;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer .contact-info {
+      width: 33%;
+    }
+
+    .contact-info {
+      margin: 80px 0;
+    }
+
+
+    .contact-title {
+      margin: 0 0 30px 0;
+    }
+
+
+    .contact-info p {
+      font-size: 1.15rem;
+    }
+    
+   }
+
+   @media only screen and (min-width: 1200px) {
+    /******DESKTOP STYLES******/
+
+
+   }
 
 
 
