@@ -368,6 +368,11 @@ textarea {
     margin: 0 0 40px 0;
    }
 
+   .email-link, .phone-link {
+    text-decoration: underline;
+    color:#eeefda;
+   }
+
    footer .follow-section {
     display: flex;
     flex-flow: row wrap;
